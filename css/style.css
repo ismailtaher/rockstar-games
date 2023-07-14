@@ -262,6 +262,7 @@ header img {
 
     @media screen and (min-width: 1024px) {
         row-gap: 1.5rem;
+        align-items: space-between;
     }
 }
 
@@ -417,7 +418,7 @@ header img {
 
 @media screen and (min-width: 768px) {
     .newswire__card {
-        width: 30vw;
+        width: 80vw;
     }
 }
 
@@ -529,6 +530,7 @@ header img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
+    justify-self: center;
 
 
 }
