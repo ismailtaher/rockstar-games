@@ -356,7 +356,7 @@ header img {
 }
 
 .newswire {
-    /* padding: 2rem; */
+    padding: 5rem;
     font-family: var(--FONT-FAMILY);
     color: var(--FONT-COLOR);
     display: flex;
@@ -392,8 +392,9 @@ header img {
     }
 
     .main__grid {
+        margin: rem;
         display: grid;
-        grid-template-columns: repeat(3, 37.5rem);
+        grid-template-columns: repeat(3, 30rem);
         gap: 2rem;
     }
 
@@ -494,6 +495,8 @@ header img {
     display: grid;
     grid-template-columns: 9rem 9rem;
     grid-gap: 1.5rem;
+
+
 
     @media screen and (min-width: 1024px) {
         grid-template-columns: repeat(4, 27.5rem);
